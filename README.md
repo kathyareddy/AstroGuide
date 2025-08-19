@@ -5,7 +5,7 @@ AstroGuide is a Streamlit-based web app that provides personalized horoscope ins
 ## Features
 -  Get your zodiac sign based on birthdate
 -  AI-powered horoscope predictions using Gemini API
--  Clean and responsive UI with centered alignment
+-  Clean and responsive UI
 -  Lightweight and easy to deploy (works locally or on Streamlit Cloud)
 
 ## Installation & Setup
