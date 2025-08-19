@@ -18,5 +18,51 @@ venv\Scripts\activate
 # On Mac/Linux
 source venv/bin/activate
 
+## API Key Setup
 
+Create a file at .streamlit/secrets.toml and add:
+
+[api_keys]
+gemini_api = "your_gemini_api_key_here"
+
+Run the App
+streamlit run main.py
+
+
+The app will open at http://localhost:8501/.
+
+
+## Deployment (Streamlit Cloud)
+
+Push your code to GitHub
+
+Go to Streamlit Cloud and connect your repo
+
+Add your secrets.toml in App → Settings → Secrets
+
+Your app will be live
+
+
+## Requirements
+streamlit
+google-generativeai
+python-dotenv
+
+## Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a feature branch
+
+Submit a pull request
+
+## License
+
+Licensed under the MIT License
+
+## Author
+
+Developed by Kathya Reddy
 
